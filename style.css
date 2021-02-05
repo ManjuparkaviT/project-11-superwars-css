@@ -1,4 +1,74 @@
+.main{
+  display : grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: flex-start;
+  
+}
+
+.column1 , .column2{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 5%;
+  
+}
+
+p{
+  text-align: center;
+  
+}
+ .Strength , .score{
+  font-size: 3em;
+  padding: 0%;
+  margin: 0%;
+  margin-top: 0%;
+
+}
+
+.row img , .name , .name1{
+   height: 100px;
+   width: 100px;
+}
+
+.name , .name1{
+  height: 37px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.name1{
+  height: 25px;
+}
+
+.row{
+
+  position: absolute;
+  border-style:ridge;
+  border-radius: 10px;
+  
+}
+.row1{
+  right: 72%;
+  height: 198px;
+}
+
+.row2{
+  right: 62%;
+}
+
+.row3{
+  right: 30%;
+}
+
+.row4{
+  right: 20%;
+  height: 198px;
+  
+}
+
 .footer{
   margin-left : 80px;
   font-size : 18px;
+  margin-top: 25%;
 }
